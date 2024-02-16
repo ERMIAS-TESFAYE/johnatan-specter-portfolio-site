@@ -6,3 +6,11 @@ html,
 body {
   scroll-behavior: smooth;
 }
+
+
+@layer base {
+  .socials {
+    @apply hover:scale-125 duration-300;
+  }
+  
+}
