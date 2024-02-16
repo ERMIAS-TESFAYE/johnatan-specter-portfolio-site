@@ -799,12 +799,12 @@ video {
   font-weight: 700;
 }
 
-.font-semibold {
-  font-weight: 600;
-}
-
 .font-medium {
   font-weight: 500;
+}
+
+.font-semibold {
+  font-weight: 600;
 }
 
 .text-\[\#ABABAB\] {
@@ -830,6 +830,26 @@ body {
 .hover\:bg-black:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-\[\#FBE850\]:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(251 232 80 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-\[\#e4d45e\]:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(228 212 94 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-\[\#d8ce86\]:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(216 206 134 / var(--tw-bg-opacity));
+}
+
+.hover\:px-6:hover {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 
 .hover\:text-\[\#FBE850\]:hover {
